@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/estilos.css">
+    <title>Registrate</title>
+</head>
+
+<body>
+
+        <header>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html">Inicio</a>
+                    </li>
+
+
+
+                    <li>
+                        <a href="productos.html">Productos</a>
+                    </li>
+
+
+
+
+                    <li>
+                        <a href="nosotros.html">Nosotros</a>
+                    </li>
+
+
+                    <li>
+                        <a href="registrate.html">Contacto</a>
+                    </li>
+
+
+                    <li>
+                        <a href="#Redes">Redes</a>
+                    </li>
+
+                    <li>
+                        <a href="carrito.html">Carrito</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+        </header>
+        <!--main representa el contenido principal del <body> de un documento o aplicación-->
+
+
+        <section class="textoRegistrate">
+
+            <h1>Unite a nuestra comunidad</h1>
+            <p>Entra al mundo de la skincare y obtene un cupon del 15% de descuento en tu primera compra.
+            </p>
+
+
+            <article class="formularioRegistrate">
+                <form action="#">
+                    <div>Género
+                        <div>Hombre
+                            <!--elemento input con type radio representa una opción en la cual solo puede haber UN valor u opción-->
+                            <input type="radio" name="radio">
+                        </div>
+                        <div>Mujer
+                            <input type="radio" name="radio">
+                        </div>
+                    </div>
+                    <!-- label representa una etiqueta para un elemento en una interfaz de usuario. 
+                    Este puede estar asociado con un control ya sea mediante la utilizacion del atributo for, 
+                    o ubicando el control dentro del elemento label. Tal control es llamado "el control etiquetado"
+                     del elemento label-->
+                    <label for="first-name">Nombre
+                        <!--leer como etiqueta/atributo/valor-->
+                        <input type="text" name="first-name">
+                    </label>
+                    <label for="last-name">Apellido
+                        <input type="text" name="last-name">
+                    </label>
+                    <div> Fecha de nacimiento
+                        <div>
+                            <select name="Día" id="Día">
+                                <option value="Día">Día</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select name="Mes" id="Mes">
+                                <!--ID Es una cadena sensible a mayúsculas referida al ID único del elemento buscado.-->
+                                <option value="Mes">Mes</option>
+                                <option value="Enero">Enero</option>
+                                <option value="Febrero">Febrero</option>
+                                <option value="Marzo">Marzo</option>
+                                <option value="Abril">Abril</option>
+                                <option value="Mayo">Mayo</option>
+                                <option value="Junio">Junio</option>
+                                <option value="Julio">Julio</option>
+                                <option value="Agosto">Agosto</option>
+                                <option value="Septiembre">Septiembre</option>
+                                <option value="Octubre">Octubre</option>
+                                <option value="Noviembre">Noviembre</option>
+                                <option value="Diciembre">Diciembre</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select name="Año" id="Año">
+                                <option value="Año">Año</option>
+                                <option value="2010">2010</option>
+                                <option value="2011">2011</option>
+                                <option value="2012">2012</option>
+                                <option value="2013">2013</option>
+                                <option value="2014">2014</option>
+                                <option value="2015">2015</option>
+                                <option value="2016">2016</option>
+                                <option value="2017">2017</option>
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                            </select>
+                        </div>
+                        <label for="Email">Email:
+                            <input type="Email" name="Email">
+                        </label>
+                    </div>
+                    <div>Quieres inscribirte al newsletter
+                        <input type="checkbox" name="acepta" value="1">
+                    </div>
+                    <input type="submit" value="enviar">
+                    <input type="submit" value="cancelar">
+                </form>
+                <!--representa una sección de un documento que
+                 contiene controles interactivos que permiten a un usuario enviar información a un servidor web.-->
+            </article>
+        </section>
+
+
+
+        <footer id="Redes">
+            <div>
+                <p class="footerTexto">♡ Métodos de pago ♡</p>
+                <img src="https://img.icons8.com/ios/50/ffffff/visa.png" alt="visa ícono" />
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/mastercard.png"
+                    alt="mastercard ícono" />
+                <img src="https://img.icons8.com/ios/50/ffffff/amex.png" alt="american express ícono" />
+                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/cash-.png" alt="efectivo ícono" />
+            </div>
+            <div>
+                <p class="footerTexto">♡ Nuestras redes ♡</p>
+                <a  href="https://twitter.com/">
+                    <img  class="imgFooter" src="https://img.icons8.com/ios/50/ffffff/instagram-new--v1.png" alt="twitter ícono" />
+                </a>
+    
+                <a href="https://www.youtube.com/ ">
+                    <img  class="imgFooter"  src="https://img.icons8.com/ios/50/ffffff/youtube--v1.png" alt="youtube ícono" />
+                </a>
+    
+                <a href="https://ar.pinterest.com/"> 
+                    <img  class="imgFooter"  src="https://img.icons8.com/ios/50/ffffff/pinterest--v1.png"
+                        alt="pinterest ícono" /></a>
+    
+                <a href="https://www.facebook.com/"> 
+                    <img  class="imgFooter"  src="https://img.icons8.com/ios/50/ffffff/facebook--v1.png"
+                        alt="facebook ícono " /></a>
+    
+            </div>
+        </footer>
+    </body>
+    
+    </html>
