@@ -13,7 +13,7 @@
 }
 
 body{
-    background-color:#ffdef9; 
+    background-color:#ffdef9 !important; 
 }
 
 
@@ -28,9 +28,9 @@ body{
 
 
 nav li{
-    display:inline-block;
+    display:inline-block ;
     width:10%;
-    padding: 13px 43px;
+    padding: 13px 43px !important ; 
     background-color:rgb(252, 200, 200);
     text-align:center;
     text-transform: uppercase;
@@ -40,7 +40,7 @@ nav li{
 
 nav li:hover{
     background-color:#ffdef9;
-    color:rgb(255, 179, 179);
+    color:rgb(255, 179, 179) !important;
   transition-property: all;
     transition-duration: 0.7s;
     cursor: pointer;
@@ -136,7 +136,7 @@ h1{
 
 
 
-/**fin de grid area**/
+/**fin de grid**/
 
 /**IMAGENES DE INICIO**/
 
